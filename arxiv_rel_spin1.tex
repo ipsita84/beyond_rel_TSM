@@ -81,16 +81,16 @@ We embark on computing the longitudinal magnetoconductivity within the semiclass
 
 \section{Introduction}
 
-Motivated by the ongoing interests in unravelling novel transport properties in three-dimensional (3d) nodal-point semimetals~\cite{burkov11_Weyl, armitage_review, yan17_topological, ips-kush-review, bernevig, grushin-multifold, ips-hermann-review, claudia-multifold}, we undertake the exercise of studying pseudospin-1 triple-point semimetals (TSMs)~\cite{bernevig, ips3by2, ady-spin1, krish-spin1, ips-cd1, tang2017_multiple, grushin-multifold, prb108035428, ips-abs-spin1, claudia-multifold, ips-spin1-ph}, with a quadratic correction renders the system more realistic \cite{ni2021_giant, claudia-multifold}. TSMs provide a platform for us to formulate and observe some generic physical phenomena connected with quantum anomalies, especially in the context of multifold fermions. In the context of high-energy physics, chiral anomaly is synonymous with the Adler-Bell-Jackiw anomaly of quantum electrodynamics \cite{adler, bell}. Strikingly, this phenomenon continues to show up even in nonrelativistic settings involving 3d semimetals \cite{chiral_ABJ, hosur-review, son13_chiral}. In particular, chiral anomaly from three-component quasiparticles is intriguing as they have no counterpart in relativistic spinors appearing in high-energy physics. This is because spin-statistics theorem prohibits the existence of fermions carrying an integer-spin value of unity
+Motivated by the ongoing interests in unravelling novel transport properties in three-dimensional (3d) nodal-point semimetals~\cite{burkov11_Weyl, armitage_review, yan17_topological, ips-kush-review, bernevig, grushin-multifold, ips-hermann-review, claudia-multifold}, we undertake the exercise of studying pseudospin-1 triple-point semimetals (TSMs)~\cite{bernevig, ips3by2, ady-spin1, krish-spin1, ips-cd1, tang2017_multiple, grushin-multifold, prb108035428, ips-abs-spin1, claudia-multifold, ips-spin1-ph}, with a quadratic correction that renders the system more realistic \cite{ni2021_giant, claudia-multifold}. TSMs provide a platform for us to formulate and observe some generic physical phenomena connected with quantum anomalies, especially in the context of multifold fermions. In the realm of high-energy physics, chiral anomaly is synonymous with the Adler-Bell-Jackiw anomaly of quantum electrodynamics \cite{adler, bell}. Strikingly, this phenomenon continues to show up even in nonrelativistic settings involving 3d semimetals \cite{chiral_ABJ, hosur-review, son13_chiral}. In particular, chiral anomaly from three-component quasiparticles is intriguing as they have no counterpart in relativistic spinors appearing in high-energy physics. This is because spin-statistics theorem prohibits the existence of fermions carrying an integer-spin value of unity.
 
 
 
-The existence of multifold fermions in crystal structures can be understood from the following discussions: 3d semimetals comprise an extremely broad and diverse family, with the degeneracy at the nodal point given by $(2\, \varsigma + 1)$, where the effective Hamiltonian in the vicinity of a node takes the form of $ \boldsymbol d( \boldsymbol{k} ) \cdot \boldsymbol {\mathcal S } $, with
+The existence of multifold fermions in crystal structures can be understood from the following discussions: 3d semimetals comprise an extremely broad and diverse family, with the degeneracy at the nodal point being given by $(2\, \varsigma + 1)$, where the effective Hamiltonian in the vicinity of a node takes the form of $ \boldsymbol d( \boldsymbol{k} ) \cdot \boldsymbol {\mathcal S } $, with
 $\boldsymbol d( \boldsymbol{k} ) = 
 \lbrace d_x ( \boldsymbol{k} ) , d_y ( \boldsymbol{k} ) , d_z ( \boldsymbol{k} )  
  \rbrace.$
 %%%%%%%%%%%%%%%%%%%%%
-The symbol $\boldsymbol {\mathcal S } $ stands for the vector operator comprising the components $ \lbrace \mathcal S_x, \mathcal S_y, \mathcal S_z  \rbrace $, representing the three components of the angular-momentum operator in the spin-$\varsigma$ representation of the SO(3) or SU(2) group. Consequently, the $(2\, \varsigma + 1)$-band system is said to carry the quantum numbers of pseudospin-$\varsigma$, with the bands labelled by the $\mathcal S_z$-projections spanning from $- \varsigma $ to $ \varsigma $. The minimal case of twofold degeneracy is represented by the pseudospin-1/2-valued Weyl semimetals (WSMs)~\cite{burkov11_Weyl, armitage_review, yan17_topological}, which is isotropic in the simplest scenarios. Its multifold cousins are captured by the pseudospin-1 TSMs and the pseudospin-3/2 Rarita-Schwinger-Weyl (RSW) semimetal~\cite{bernevig, long, igor, igor2, isobe-fu, tang2017_multiple, ips3by2, ips-cd1, ma2021_observation, ips-magnus, ips-jns, prb108035428, ips_jj_rsw, grushin-multifold, claudia-multifold, ips-rsw-ph, ips-shreya}, for example. 
+The symbol $\boldsymbol {\mathcal S } $ stands for the vector operator comprising the components $ \lbrace \mathcal S_x, \mathcal S_y, \mathcal S_z  \rbrace $, representing the three components of the angular-momentum operator in the spin-$\varsigma$ representation of the SO(3) or SU(2) group. Consequently, the $(2\, \varsigma + 1)$-band system is said to carry the quantum numbers of pseudospin-$\varsigma$, with the bands labelled by the $\mathcal S_z$-projections spanning from $- \varsigma $ to $ \varsigma $. The minimal case of twofold degeneracy is represented by the pseudospin-1/2-valued Weyl semimetals (WSMs)~\cite{burkov11_Weyl, armitage_review, yan17_topological}, which are isotropic in the simplest scenarios. Their multifold cousins are captured by the pseudospin-1 TSMs and the pseudospin-3/2 Rarita-Schwinger-Weyl (RSW) semimetal~\cite{bernevig, long, igor, igor2, isobe-fu, tang2017_multiple, ips3by2, ips-cd1, ma2021_observation, ips-magnus, ips-jns, prb108035428, ips_jj_rsw, grushin-multifold, claudia-multifold, ips-rsw-ph, ips-shreya}, for example. 
 
 
 All the systems described above exemplify bandstructures featuring nontrivial topology \cite{xiao_review, sundaram99_wavepacket, graf-Nband} induced by the Berry phases, which show up in the form of topological quantities like the Berry curvature (BC) and the orbital magnetic moment (OMM). These, in turn, source nontrivial features in the response, that can be measured in transport-experiments \cite{timm, ips_rahul_ph_strain,rahul-jpcm, ips-kush-review, claudia-multifold, ips-ruiz, ips-rsw-ph, ips-tilted, ips-shreya}. While our primary focus in this paper is computing longitudinal magnetotransport for TSMs with $ \varsigma = 1$, other examples include intrinsic anomalous-Hall effects~\cite{haldane04_berry,goswami13_axionic, burkov14_anomolous}, planar-Hall coefficients \cite{zhang16_linear, chen16_thermoelectric, nandy_2017_chiral, nandy18_Berry, amit_magneto, ips-floquet,  das20_thermal, das22_nonlinear, pal22a_berry, pal22b_berry, fu22_thermoelectric, araki20_magnetic, mizuta14_contribution, ips_rahul_ph_strain, timm, rahul-jpcm, ips-kush-review, claudia-multifold, ips-ruiz, lei_li-ph, ips-tilted, ips-rsw-ph, ips-shreya, ips-spin1-ph, ips-nl-ph, gusynin06_magneto, staalhammar20_magneto, yadav23_magneto}, Magnus-Hall effect~\cite{papaj_magnus, amit-magnus, ips-magnus}, circular dichroism \cite{ips-cd1, ips_cd}, and circular photogalvanic effect \cite{moore18_optical, guo23_light,kozii, ips_cpge}, to name a few.
@@ -99,11 +99,11 @@ The effective low-energy model of a TSM comprises threefold-degenerate band-cros
 
 
 
-A nonzero BC-profile is accompanied by nonzero BC monopoles at the nodal points \cite{fuchs-review, polash-review}, serving as topological charges, and sourcing the BC flux. These can be interpreted as Chern numbers, when we consider the topological properties of the 3d Brillouin zone (BZ) treated as a closed manifold. The sign of a Chern number is referred to as the chirality ($\chi$) of the node, endowing a label of \textit{handedness or chirality} to the quasiparticles associated with it. They are called \textit{right-handed} or \textit{left-handed} according to whether $\chi = 1$ or $\chi = -1$. The chirality is the origin of the chiral anomaly in topological nodal points. Of course, a summation of all the Chern numbers over all the nodes in the BZ, carried either by the conduction or the valence bands, must yield zero for a system originating in a lattice. The mathematical proof of this phenomenon is provided by the Nielsen-Ninomiya theorem \cite{nielsen81_no}. The outcome of this fact is that there exist conjugate pairs of nodes in the BZ, carrying $\chi = \pm 1$. Here, we will adhere to the convention of assigning $\chi$ the sign of the Chern numbers of the negative-energy bands, where positive or negative is measured with respect to the band-touching point (taken to set the zero of energy). 
+A nonzero BC-profile is accompanied by nonzero BC monopoles at the nodal points \cite{fuchs-review, polash-review}, serving as topological charges, and sourcing the BC flux. These charges can be interpreted as the Chern numbers of the Bloch bands, when we consider the topological properties of the 3d Brillouin zone (BZ) treated as a closed manifold. The sign of the Chern number of a valence band is referred to as the chirality ($\chi$) of the node, endowing a label of \textit{handedness or chirality} to the quasiparticles associated with it. They are called \textit{right-handed} or \textit{left-handed} according to whether $\chi = 1$ or $\chi = -1$. The chirality is the origin of the chiral anomaly in topological nodal points. Of course, a summation of all the Chern numbers over all the nodes in the BZ, carried either by the conduction or the valence bands, must yield zero for a system originating from a lattice. The mathematical proof of this phenomenon is provided by the Nielsen-Ninomiya theorem \cite{nielsen81_no}. The outcome of this fact is that there exist conjugate pairs of nodes in the BZ, carrying $\chi = \pm 1$. Here, we will adhere to the convention of assigning $\chi$ the sign of the Chern numbers of the negative-energy bands, where positive or negative is measured with respect to the band-touching point (taken to set the zero of energy). 
 
 
 
-For topological semimetals, there exist extensive amounts of theoretical and experimental studies, trying to identify and characterise unique response coefficients~\cite{zhang16_linear, chen16_thermoelectric, nandy_2017_chiral, nandy18_Berry, amit_magneto, das20_thermal, das22_nonlinear, pal22a_berry, pal22b_berry, fu22_thermoelectric, araki20_magnetic, mizuta14_contribution,timm, onofre, ips_rahul_ph_strain, rahul-jpcm, ips-kush-review, claudia-multifold, ips-ruiz, ips-tilted, ips-internode, ips-nl-ph}, which can reflect the underlying topology of the BZ. Nevertheless, more remains to be explored. For example, in our earlier works, we have computed the weak-magnetic-field-induced response in planar-Hall set-ups, in the limit of relaxation-time approximation (RTA). Here, we aim to perform an exact calculation of the longitudinal conductivity, arising from applying collinear electric ($\boldsymbol   E $) and magnetic ($\boldsymbol B $) fields, by going beyond the RTA. This exercise has been carried out for WSMs \cite{timm, girish2023}, which we will carry out for TSMs, whose unphysical representation of a flat-band is remedied by adding a spherically-symmetric quadratic-in-momentum correction \cite{ni2021_giant}. Hence, the flat-band will be promoted to a quadratically-dispersive band, which will now contribute to the net conductivity (as expected in an actual experiment \cite{claudia-multifold}). We would like to point out that, in Ref.~\cite{girish-internode-spin1}, the behaviour of the longitudinal conductivity has been discussed for TSMs with a nondispersive band, where it does not contribute, since quadratic corrections are not taken into account.
+For topological semimetals, there exist extensive amounts of theoretical and experimental studies, trying to identify and characterise unique response-coefficients~\cite{zhang16_linear, chen16_thermoelectric, nandy_2017_chiral, nandy18_Berry, amit_magneto, das20_thermal, das22_nonlinear, pal22a_berry, pal22b_berry, fu22_thermoelectric, araki20_magnetic, mizuta14_contribution,timm, onofre, ips_rahul_ph_strain, rahul-jpcm, ips-kush-review, claudia-multifold, ips-ruiz, ips-tilted, ips-internode, ips-nl-ph}, which can reflect the underlying topology of the BZ. Nevertheless, more remains to be explored. For example, in our earlier works, we have computed the weak-magnetic-field-induced response in planar-Hall set-ups, in the limit of relaxation-time approximation (RTA). Here, we aim to perform an exact calculation of the longitudinal conductivity, arising from applying collinear electric ($\boldsymbol   E $) and magnetic ($\boldsymbol B $) fields, by going beyond the RTA. This exercise has been carried out for WSMs \cite{timm, girish2023}, which we will incorporate here for TSMs, after the unphysical representation of a flat-band is remedied by adding a spherically-symmetric quadratic-in-momentum correction \cite{ni2021_giant}. Hence, the flat-band will be promoted to a quadratically-dispersive band, which will now contribute to the net conductivity (as expected in an actual experiment \cite{claudia-multifold}). We would like to point out that, in Ref.~\cite{girish-internode-spin1}, the behaviour of the longitudinal conductivity has been discussed for TSMs with a nondispersive band, where it does not contribute, since quadratic corrections are not taken into account.
  
 
 
@@ -120,13 +120,13 @@ Additionally, the electric charge has no units, with the magnitude of a single e
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[t]
 \includegraphics[width = 0.65 \textwidth]{scatter}
-\caption{\label{figdis}Schematics of the scattering processes between two nodes of TSM of opposite values of chirality. The values of the chemical potential, represented by the yellow planes, have been tuned to cut the positive-energy bands at each node.}
+\caption{\label{figdis}Schematics of the scattering processes between two nodes in a TSM, carrying opposite values of chirality. The values of the chemical potential, represented by the yellow planes, have been tuned to cut the positive-energy bands at each node.}
 \end{figure*}
 
 
 %  \cite{takane2019_observation}.
  
-Our focus is on TSMs, which exist in materials materials hosting a pair of conjugate nodes with Chern numbers $ \pm 2 $ in the BZ \cite{bernevig, ady-spin1, grushin-multifold}. In particular, we will focus on isotropic nodes, obtained by expanding the $\boldsymbol{k} \cdot \boldsymbol {p}$ Hamiltonian about the threefold-degenerate points, in small $\lbrace k_x, \, k_y , \, k_z \rbrace $, valid in the low-energy limit. We note that, if we decide to expand upto linear-in-momentum, we get a flat band, which is of course an artifact of linear-order approximation and corresponds to an unphysical situation. Therefore, we retain the rotationally-symmetric terms upto quadratic-in-momentum, which is captured by the following effective continuum Hamiltonian \cite{ni2021_giant}:
+Our focus is on TSMs, which exist in materials materials hosting a pair of conjugate nodes with Chern numbers $ \pm 2 $ in the BZ \cite{bernevig, ady-spin1, grushin-multifold}. In particular, we will focus on isotropic nodes, obtained by expanding the $\boldsymbol{k} \cdot \boldsymbol {p}$ Hamiltonian about the threefold-degenerate points, in small $\lbrace k_x, \, k_y , \, k_z \rbrace $, valid in the low-energy limit. We note that, if we decide to expand upto linear-in-momentum terms, we get a flat-band, which is of course an artefact of linear-order approximation and corresponds to an unphysical situation. Therefore, we retain the rotationally-symmetric terms upto quadratic-in-momentum, which is captured by the following effective continuum Hamiltonian \cite{ni2021_giant}:
 %%%%%%%%%%%%%%%%%
 \begin{align} 
 \label{eqham}
@@ -164,7 +164,7 @@ S_z =
 \end{pmatrix}.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%
-The model follows from the low-energy $\boldsymbol k \cdot \boldsymbol p$ Hamiltonian near a band-crossing point (taken to be the origin or $ \boldsymbol k = 0$), yielding the Hamiltonian consistent with the symmetries of the little group near the degeneracy point. Refs.~\cite{bernevig, grushin-multifold} expand upto linear order in momentum and the resulting model is a Hamiltonian with a flat band. The detailed group-theory analysis of the quadratic-corrected model can be found in the ``Supplementary Information'' of Ref.~\cite{ni2021_giant}, where the authors expand about the nodal point upto quadratic order in momentum (they have considered the material CoSi for their experiments). For these quadratic terms, anisotropy is possible \cite{ni2021_giant}, but we retain only the isotropic contributions.
+The model follows from the low-energy $\boldsymbol k \cdot \boldsymbol p$ Hamiltonian near a band-crossing point (taken to be the origin or $ \boldsymbol k = 0$), yielding the Hamiltonian consistent with the symmetries of the little group near the degeneracy point. Refs.~\cite{bernevig, grushin-multifold} expand upto linear order in momentum and the resulting model is a Hamiltonian with a flat-band. The detailed group-theory analysis of the quadratic-corrected model can be found in the ``Supplementary Information'' of Ref.~\cite{ni2021_giant}, where the authors expand about the nodal point upto quadratic order in momentum (they have considered the material CoSi for their experiments). For these quadratic terms, anisotropy is possible \cite{ni2021_giant}, but we retain only the isotropic contributions.
 
 
 
@@ -275,12 +275,12 @@ respectively. Here, $ \lbrace |  \psi_{ \chi, s }({ \boldsymbol k}) \rangle  \rb
  \end{cases} \, .
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%%%%%
-We note that, for the $s=0$ band, although the BC is identically zero. However, the OMM is nonzero, turning out to be twice the OMM of the $s =\pm1 $ bands. Therefore, all the bands are endowed with nontrivial topological properties.
+We note that, for the $s=0$ band, although the BC is identically zero, the OMM is nonzero, turning out to be twice the OMM of the $s =\pm1 $ bands. Therefore, all the bands are endowed with nontrivial topological properties.
 %%%%%%%%%%%
 It is easy to verify from the $\boldsymbol \Omega_{\chi, s} ({ \boldsymbol k})$-expressions that the node has a net Chern number of $2\, \chi $, contributed by the $s =\pm 1$ bands. 
 
 
-A nonzero BC modifies the phase-space volume element for the particles occupying a Bloch band, via the factor of $
+A nonzero BC modifies the phase-space volume element for the particles occupying a Bloch band via the factor of $
 \left [{\mathcal D}_{ \chi, s }  (\boldsymbol k)\right]^{-1}$, where
 \begin{align}
 {\mathcal D}_{ \chi, s }  (\boldsymbol k) = \left [1 
@@ -289,7 +289,7 @@ A nonzero BC modifies the phase-space volume element for the particles occupying
 \right \rbrace  \right ]^{-1}.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%
-The presence of a nonzero OMM causes a Zeeman-like correction to the bare dispersion \cite{xiao_review}, leading to a net effective value of
+On the other hand, the presence of a nonzero OMM causes a Zeeman-like correction to the bare dispersion \cite{xiao_review}, leading to a net effective value of
 \begin{align}
 \label{eqmodi}
 & \xi_{ \chi, s } (\boldsymbol k) 
@@ -320,12 +320,12 @@ The effects of OMM show up via the modified energy appearing in the equilibrium 
 where $T $ is the temperature.
 While using $f_0$ in various equations, we will be suppressing its $\mu$- and $ T $-dependence for uncluttering of notations. Moreover, in what follows, we will restrict our calculations to the $ T = 0$ limit.
 
-In our earlier work, appearing as Ref.~\cite{ips-spin1-ph}, we did not consider the quadratic corrections. Therefore, the flat-band there was ignored, considering the fact that a nonzero chemical potential (measured with respect to the nodal point) will not cut the band, leading to no contribution to conductivity. Of course the OMM would have given it a finite dispersion for a nonzero magnetic field --- but it would lead to open Fermi surfaces, which would have necessitated the introduction of artificial cut-offs in the momentum-integrals. Such an unphysical situation is remedied by introducing the quadratic-in-momentum corrections.
+In our earlier work using RTA, appearing as Ref.~\cite{ips-spin1-ph}, we did not consider the quadratic corrections. Therefore, the flat-band there was ignored, considering the fact that a nonzero chemical potential (measured with respect to the nodal point) will not cut the band, leading to no contribution to conductivity. Of course the OMM would have given it a finite dispersion for a nonzero magnetic field --- but it would lead to open Fermi surfaces, which would have necessitated the introduction of artificial cut-offs in the momentum-integrals. Such an unphysical situation is remedied by introducing the quadratic-in-momentum corrections.
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Collinear electric and magnetic fields along the $z$-axis}
 
-Let us write down the expressions for the OMM-induced energy and velocity when $\boldsymbol B  =  B\, \boldsymbol{\hat{z}}$, aligned along an external electric field, $ \boldsymbol E  =  E\, \boldsymbol{\hat{z}}$. For this case, we have
+Let us write down the expressions for the OMM-induced energy- and velocity-corrections when $\boldsymbol B  =  B\, \boldsymbol{\hat{z}}$ is aligned along an external electric field, $ \boldsymbol E  =  E\, \boldsymbol{\hat{z}}$. For this case, we have
 \begin{align}
 \varepsilon_{\chi, s}^{(m)}   (\boldsymbol k)  = 
 \frac{  \chi \, e\, B \, v_F \, \mathcal{G}_s \,  k_z } 
@@ -378,7 +378,7 @@ the expression for $\dot {\boldsymbol k}$). The kinetic equation, arising out of
 \end{align}
 %%%%%%%%%%%
 where $f_{\chi, s}  (\boldsymbol r, \boldsymbol k, t) $ represents the nonequilibrium quasipaticle-distribution function close to the semimetallic node of chirality $\chi$. The deviation, $ \delta f_{\chi, s} (\boldsymbol r, \boldsymbol k, t) \equiv 
-f_{\chi, s}  (\boldsymbol r, \boldsymbol k, t) - f_0 (\xi_{\chi, s} (\boldsymbol k) )$, from the equilibrium distribution, $ f_0 (\xi_{\chi, s}(\boldsymbol k) )$, is caused by the probe field, $\boldsymbol E $, coupled with the nonquantising $\boldsymbol B$-field, whose magnitude is controlled by the magnitude of $\boldsymbol E$ (which itself is assumed to be small). Here, we restrict ourselves to time-independent and spatially-uniform external fields and, hence, $f_{\chi, s} $ must not depend on position and time, implying $ \delta f_{\chi, s}  (\boldsymbol r, \boldsymbol k, t) = \delta f_{\chi, s}  (\boldsymbol k)$. Expanding upto order $|\boldsymbol E|$ in smallness allows us to arrive at the linearised approximation for the resulting response coefficients. On the right-hand side, $ I_{\text{coll}} [f_{\chi, s} ({\boldsymbol k}) ] $ symbolises the so-called \textit{collision integral}, which comprises the relevant scattering processes trying to relax $f_{\chi, s} ({\boldsymbol k})$ towards $f_0 (\xi_{\chi, s}({\boldsymbol k}))$. 
+f_{\chi, s}  (\boldsymbol r, \boldsymbol k, t) - f_0 (\xi_{\chi, s} (\boldsymbol k) )$, from the equilibrium distribution, $ f_0 (\xi_{\chi, s}(\boldsymbol k) )$, is caused by the probe field, $\boldsymbol E $, coupled with the nonquantising $\boldsymbol B$-field, whose magnitude is controlled by the magnitude of $\boldsymbol E$ (which itself is assumed to be small). Here, we restrict ourselves to time-independent and spatially-uniform external fields and, hence, $f_{\chi, s} $ must not depend on position and time, implying $ \delta f_{\chi, s}  (\boldsymbol r, \boldsymbol k, t) = \delta f_{\chi, s}  (\boldsymbol k)$. Expanding upto order $|\boldsymbol E|$ in smallness allows us to arrive at the linearised approximation for the resulting response-coefficients. On the right-hand side, $ I_{\text{coll}} [f_{\chi, s} ({\boldsymbol k}) ] $ symbolises the so-called \textit{collision integral}, which comprises the relevant scattering processes trying to relax $f_{\chi, s} ({\boldsymbol k})$ towards $f_0 (\xi_{\chi, s}({\boldsymbol k}))$. 
 
 
 
@@ -417,7 +417,7 @@ Therefore, the scattering rate simplifies to
  - \xi_{  \chi , s } (\boldsymbol k ) \Big) \,.
 \end{align}
 %%%%%%%%%%%
-Assuming an interchange-symmetry between the $\chi = \pm 1$ nodes and the values of the bands, we enlist the associated scattering strengths as
+Assuming an interchange-symmetry between the $\chi = \pm 1$ nodes and the values of the bands, we parametrise the associated scattering strengths as
 \begin{align}
  \big |{\mathcal V} ^{1, -1}_{ s, \tilde s} \big |^2 =   \big |{\mathcal V} ^{ -1, 1}_{ s, \tilde s} \big|^2
  \equiv \frac{ 2\,\pi} {\rho_{\rm imp}}\, \beta^{\rm inter}_{s, \tilde s} \,,
@@ -494,7 +494,7 @@ e \, B \left [ {\boldsymbol{w}}_{\chi, s} ({\boldsymbol k}) \cross
 \end{align}
 %%%%%%%%%%%%%%%
 To solve the above equation, we take the self-consistent ansatz \cite{timm} that 
-$ {\Lambda}^z_{\chi, s} \equiv {\Lambda}^z_{\chi, s} ( \mu, \theta)$ at an energy $\mu$, which only depends on the polar angle, $\theta$, and the chemical potential, $\mu$. This is because, for elastic scattering, the integral over the full momentum space can be replaced by an integral over the Fermi surface at energy $\xi_{\chi , s} (\boldsymbol k) = \mu $, and the dependence on the azimuthal angle $\phi$ should not be there because of the rotational symmetry of the entire system in the $k_x k_y$-plane. 
+$ {\Lambda}^z_{\chi, s} \equiv {\Lambda}^z_{\chi, s} ( \mu, \theta)$ at an energy $\mu$, which only depends on the polar angle, $\theta$, and the chemical potential, $\mu$. This is because, for elastic scatterings, the integral over the full momentum space can be replaced by an integral over the Fermi surface at energy $\xi_{\chi , s} (\boldsymbol k) = \mu $, and the dependence on the azimuthal angle $\phi$ should not be there because of the rotational symmetry of the entire system in the $k_x k_y$-plane. 
 Consequently, the momentum-space integrals reduce to the respective Fermi surfaces at energy $\xi_{\chi , s} 
 (k_F^{\chi, s} , \theta )= \mu $ with $T$ set to zero, denoted by the set of Fermi momenta, $ \lbrace k_F^{\chi, s} (\theta) \rbrace $. The self-consistency can be easily checked from the fact that $\left [ {\boldsymbol \Omega}^\chi_{s} (\boldsymbol k) \cdot
  {\boldsymbol{w}}_{\chi, s} (\boldsymbol k)  \right ] $ is $\phi$-independent and $ \left [  {\boldsymbol{w}}_{\chi, s} 
@@ -502,7 +502,7 @@ Consequently, the momentum-space integrals reduce to the respective Fermi surfac
 \cdot \nabla_{\boldsymbol k} {\Lambda}^z_{\chi, s} (\mu, \theta ) $ evaluates to zero.
 
 
-Going by the above understanding, for our exercise involving $ {\boldsymbol E}  \parallel {\boldsymbol B} $, 
+Going by the above understanding, for our set-up involving $ {\boldsymbol E}  \parallel {\boldsymbol B} $, 
 although the spinor overlaps contain the azimuthal angles,
 $\phi$ and $\phi^\prime $, they will drop out on performing the azimuthal-angle integrations. Hence, using Eq.~\eqref{eqev},we can effectively use the overlap-function defined as 
 \begin{align}
@@ -534,7 +534,7 @@ $\phi$ and $\phi^\prime $, they will drop out on performing the azimuthal-angle 
 +\cos ^2\theta \, \sin ^2 \theta^\prime  \right ]  
 \delta_{s,0} \, \delta_{\tilde s, 1} \,,
 \end{align}
-while evaluating the integrals. Using the $\phi$-independent forms, Eq.~\eqref{eqvec} reduces to
+while evaluating the integrals. Using the $\phi$-integrated forms, Eq.~\eqref{eqvec} reduces to
 %%%%%%%%%%%%%%%%%%%
 \begin{align}
 \label{eq_lambda_mu}
@@ -579,7 +579,7 @@ Since the integrals reduce to the respective Fermi surfaces at energy $ \mu $ wi
 \Big \vert_{ k^\prime = k_F^{ \tilde \chi, \tilde s} } \,.
 \end{align}
 %%%%%%%%%%%%%%%%%%%%%
-While the factor $ \left (k^\prime \right )^3  \sin \theta^\prime $ arises as the Jacobian for switching to the spherical polar coordinates, the part $$  \big |\boldsymbol {\hat k^\prime} \cdot 
+While the factor $ \left (k^\prime \right )^2  \sin \theta^\prime $ arises as the Jacobian for switching to the spherical polar coordinates, the part $$  \big |\boldsymbol {\hat k^\prime} \cdot 
  \nabla_{\boldsymbol k^\prime} \xi_{\chi, s}({\boldsymbol k^\prime}) \big |^{-1}  
  = k^\prime / |\boldsymbol k^\prime \cdot {\boldsymbol{w}}_{\chi, s} (\boldsymbol k^\prime)  |$$
 arises from converting $ \delta \Big( \xi_{\tilde \chi , \tilde s } (\boldsymbol k^\prime) -\mu \Big) $ to
@@ -587,9 +587,9 @@ $\delta (k^\prime - k_F^{ \tilde \chi, \tilde s})$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[]
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{linbands1}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{linbands2}}\quad \vrule
-\subfigure[]{\includegraphics[width= 0.31 \textwidth]{linbands3}} 
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig2a}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig2b}}\quad \vrule
+\subfigure[]{\includegraphics[width= 0.31 \textwidth]{fig2c}} 
 \caption{\label{figsep1}$\delta \sigma_{zz}$ from the $\{s, \tilde s\} = \{1,1\}$ bands with no interaction with the $\{s, \tilde s\} = \{0,0\}$ bands: While the top panel shows the variation of the full conductivity with $B$ (in eV$^2$) when OMM is taken into account appropriately, the bottom panel represents conductivity versus $B$ when OMM is not considered. The plot-legends indicate the values of the ratio $\beta^{\rm inter}_{1,1} / \beta^{\rm intra}_{1,1}$. The three subfigures represent three distinct sets of parameter values, as indicated in the labels.}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -658,18 +658,18 @@ leading to
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[]
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{flatbands1}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{flatbands2}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.305 \textwidth]{flatbands3}} 
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig3a}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig3b}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.305 \textwidth]{fig3c}} 
 \caption{\label{figsep2}$\delta \sigma_{zz}$ from the $\{s, \tilde s\} = \{0,0\}$ bands with no interaction with the $\{s, \tilde s\} = \{1,1\}$ bands: The curves demonstrate the variation of conductivity with $B$ (in eV$^2$). Here, the $B$-dependence is entirely caused by the OMM, since BC is zero for these bands. The top, middle, and bottom panels represent the results for the $\chi=+1$ node, $\chi =-1$ node, and sum over both the nodes, respectively. The plot-legends indicate the values of the ratio $\beta^{\rm inter}_{0,0} / \beta^{\rm intra}_{0,0}$. The three subfigures represent three distinct sets of parameter values, as indicated in the labels.}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[]
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands1}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands2}}\quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands3}}  
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig4a}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig4b}}\quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig4c}}  
 \caption{\label{figall1}$\delta \sigma_{zz}$ from the $\{s, \tilde s\} = \{1,1\}$ bands interacting mutually and with the $\{s, \tilde s\} = \{0,0\}$ bands: While the top panel shows the variation of the full conductivity against $B$ (in eV$^2$) when OMM is taken into account appropriately, the bottom panel represents conductivity versus $B$ when OMM is omitted. The plot-legends indicate the values of the ratios $\lbrace \beta^{\rm inter}_{s,\tilde s} / \beta^{\rm intra}_{s,\tilde s}
 \rbrace $. The three subfigures represent three distinct sets of parameter values, as indicated in the labels.}
 \end{figure*}
@@ -677,9 +677,9 @@ leading to
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[]
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands1flat}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands2flat}} \quad \vrule
-\subfigure[]{\includegraphics[width= 0.3 \textwidth]{allbands3flat}} 
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig5a}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig5b}} \quad \vrule
+\subfigure[]{\includegraphics[width= 0.3 \textwidth]{fig5c}} 
 \caption{\label{figall2}$\delta \sigma_{zz}$ from the $\{s, \tilde s\} = \{0,0\}$ bands interacting mutually and with the $\{s, \tilde s\} = \{1,1\}$ bands: The curves demonstrate the variation of conductivity  with $B$ (in eV$^2$). The top, middle, and bottom panels represent the results for the $\chi=+1$ node, $\chi =-1$ node, and sum over both the nodes, respectively. The plot-legends indicate the values of the ratios $\lbrace \beta^{\rm inter}_{s,\tilde s} / \beta^{\rm intra}_{s,\tilde s} \rbrace $. The three subfigures represent three distinct sets of parameter values, as indicated in the labels.}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -694,8 +694,8 @@ leading to
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[]
-\subfigure[]{\includegraphics[width= 0.6 \textwidth]{allbands4}} 
-\subfigure[]{\includegraphics[width= 0.9 \textwidth]{allbands4flat}} 
+\subfigure[]{\includegraphics[width= 0.6 \textwidth]{fig6a}} 
+\subfigure[]{\includegraphics[width= 0.9 \textwidth]{fig6b}} 
 \caption{\label{figall3}(a) Net $\delta \sigma_{zz}$ from the $\{s, \tilde s\} = \{1,1\}$ bands, when interacting mutually and with the $\{s, \tilde s\} = \{0,0\}$ bands, as $B$ (in eV$^2$) is cranked up. (b) Node-dependent and net values of $\delta \sigma_{zz}$ for the $\{s, \tilde s\} = \{0,0\}$ bands, as $B$ is varied, when interacting mutually and with the $\{s, \tilde s\} = \{ 1,1 \}$ bands,. The plot-legends indicate the values of the ratios $\lbrace \beta^{\rm inter}_{s,\tilde s} / \beta^{\rm intra}_{s,\tilde s} \rbrace $.}
 \end{figure*}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -936,7 +936,7 @@ Hence, we find that the RTA is unable to capture the actual characteristics that
 \section{Summary, discussions, and future perspectives}
 \label{secsum}
 
-In this paper, we have addressed the crucial question of determining the nature of longitudinal magnetoconductivity for multifold semimetals, taking the TSM with quadratic-corrections as an example. A TSM's threefold-degenerate nodal points ensure that multiple bands contribute to transport at each node, although this signature was missed/ignored in earlier works \cite{ips-spin1-ph, girish-internode-spin1}, because the $s=0$ band provided zero input due its designation as a flat/nondispersive band. However, the flatness of this band is an artifact of retaining only the linear-in-momentum terms in the effective Hamiltonian in the vicinity of a given node, which is corrected in our approach by including the leading-order corrections $\propto k^2$. Indeed, the $s=0$ bands harbour nontrivial topological characteristics on the virtue of possessing nonzero values of OMM, although having zero BC (or vanishing Chern numbers). Hence, the $c\, k^2$ term in the Hamiltonian [cf. Eq.~\eqref{eqham}] enables us to account for the actual responsible that must be observable in contemporary experiments \cite{claudia-multifold}. Our calculations and results also act to bring out the importance of going beyond the RTA, as the full/correct picture is not obtained by confining ourselves to such an approximation. This is explicitly and quantitatively verified by computing and comparing the answers obtained from the two approaches. Indeed, the failure of an RTA has been observed in diverse contexts (see, for example Refs. \cite{rta1, rta2}), where the correct physics is only captured by an exact treatment of the collision integrals.
+In this paper, we have addressed the crucial question of determining the nature of longitudinal magnetoconductivity for multifold semimetals, taking the TSM with quadratic-corrections as an example. A TSM's threefold-degenerate nodal points ensure that multiple bands contribute to transport at each node, although this signature was missed/ignored in earlier works \cite{ips-spin1-ph, girish-internode-spin1}, because the $s=0$ band provided zero input due its designation as a flat/nondispersive band. However, the flatness of this band is an artefact of retaining only the linear-in-momentum terms in the effective Hamiltonian in the vicinity of a given node, which is corrected in our approach by including the leading-order corrections $\propto k^2$. Indeed, the $s=0$ bands harbour nontrivial topological characteristics on the virtue of possessing nonzero values of OMM, although having zero BC (or vanishing Chern numbers). Hence, the $c\, k^2$ term in the Hamiltonian [cf. Eq.~\eqref{eqham}] enables us to account for the actual responsible that must be observable in contemporary experiments \cite{claudia-multifold}. Our calculations and results also act to bring out the importance of going beyond the RTA, as the full/correct picture is not obtained by confining ourselves to such an approximation. This is explicitly and quantitatively verified by computing and comparing the answers obtained from the two approaches. Indeed, the failure of an RTA has been observed in diverse contexts (see, for example Refs. \cite{rta1, rta2}), where the correct physics is only captured by an exact treatment of the collision integrals.
 
 
 Our results show that a nonzero longitudinal conductivity in TSMs is caused by chiral anomaly, similar to the WSMs. The inclusion of OMM also leads to sign reversal of $\delta \sigma_{zz}$ depending on the relative strengths of internode and intranode scatterings, similar to the WSMs. The qualitative difference from the WSM-cases is that, since more than one band is participating in transport at each chiral node, we now have multiple knobs available to tune the characteristics of the linear response. These comprise various types of intraband and intranode scattering-amplitudes, viz., the set comprising $ \lbrace \beta^{\rm intra}_{s, \tilde s}, \,\beta^{\rm inter}_{s, \tilde s} \rbrace $. Quantitatively, we find that a large ratio of internode-to-intranode scattering-strength is required (cf. Fig.~\ref{figall3}) to get the sign-flips of $\delta \sigma_{zz}$, compared to WSMs \cite{timm}.
