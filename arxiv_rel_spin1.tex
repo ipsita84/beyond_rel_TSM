@@ -293,8 +293,7 @@ On the other hand, the presence of a nonzero OMM causes a Zeeman-like correction
 \begin{align}
 \label{eqmodi}
 & \xi_{ \chi, s } (\boldsymbol k) 
-= \varepsilon_ s  (\boldsymbol k) + \varepsilon_{\chi, s}^{ (m) }  (\boldsymbol k) \, ,
-\quad 
+= \varepsilon_ s  (\boldsymbol k) + \varepsilon_{\chi, s}^{ (m) }  (\boldsymbol k) \, ,\quad 
 \varepsilon_{\chi, s}^{(m)}   (\boldsymbol k) 
 = - \,{\boldsymbol B} \cdot \boldsymbol{m }_{\chi, s}  (\boldsymbol k) \,.
 \end{align}
@@ -367,8 +366,7 @@ the expression for $\dot {\boldsymbol k}$). The kinetic equation, arising out of
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{align}
 \label{eqkin32}
-& \left [
- \partial_t  
+& \left [ \partial_t  
 + {\boldsymbol w}_{\chi, s} ({\boldsymbol k}) \cdot \nabla_{\boldsymbol r} 
 -e \left \lbrace  \boldsymbol{E}
 +  {\boldsymbol w}_{\chi, s} ({\boldsymbol k})  \times {\boldsymbol B} 
@@ -475,7 +473,7 @@ where $ \bm{\Lambda}_{\chi, s} (\boldsymbol {k} ) $ is the vectorial mean-free p
 \label{eqvec}
 &  w^z_{\chi, s} ({\boldsymbol k})
 + e \, B \left [
-{\boldsymbol \Omega}^\chi_{s} ({\boldsymbol k})
+{\boldsymbol \Omega}_{\chi, s}  ({\boldsymbol k})
  \cdot {\boldsymbol{w}}_{\chi, s} ({\boldsymbol k})  \right ]
 %%%%%%%%%%%%%
 -\, 
@@ -568,7 +566,7 @@ Since the integrals reduce to the respective Fermi surfaces at energy $ \mu $ wi
 \sum_{\tilde \chi , \tilde s}  
 \frac{ \rho_{\rm imp} 
 \, |{\mathcal V} ^{\chi, \tilde \chi}_{ s, \tilde s} |^2 }
-{ 4\, \pi }
+{ 2\, \pi }
 %%%%%%%%
 \int d\theta^\prime \, \frac{\sin \theta^\prime \left (k^\prime \right )^3 
 \, {\mathcal D}^{-1}_{\tilde \chi, \tilde s} ({\boldsymbol k}^\prime)}
@@ -638,7 +636,8 @@ Inserting the solutions, we obtain the charge-current density along the $z$-dire
 \begin{align}
 \label{def_cur}
 	J_z^{\rm tot} =- \,\frac{e}{ V }\sum_{\chi,s}
-\int_k	(\dot{\boldsymbol {r}} \cdot \boldsymbol{\hat z})
+\int_k	\left[ {\mathcal D}_{\chi, s}  ({\boldsymbol k}) \right ]^{-1}
+(\dot{\boldsymbol {r}} \cdot \boldsymbol{\hat z})
 \;  \delta f_{\chi, s} (\boldsymbol k)\,,
 \end{align}
 leading to
@@ -884,6 +883,7 @@ For the $s=1$ and $s=0$ bands, Eq.~\eqref{eqsig} evaluates to
 \frac{7\, B^2\, \sqrt{c} \,e^4 \,\tau \, v_F^{5/2}}
 { (2\,\pi)^3 \times  30 \, \mu ^{\frac{3} {2} }}\,.
 \end{align}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 Here, the superscipts, ``dr'', ``bc'', and ``omm'', indicate the Drude (i.e., $B$-independent), BC-only, and OMM-induced contributions, respectively. For $s=1$, $\sigma_{zz}^{\rm bc} $ and $\sigma_{zz}^{\rm omm}$ come with opposite signs. Within the parameter regions for $\mu$, $v_F$, and $c$ considered here, the magnitude of the latter is always smaller than that of the former, with the overall response remaining positive. This is in agreement with the conclusions reached in Ref.~\cite{ips-spin1-ph}, where the quadratic-in-momentum corrections were not considered. For the $s=0$ bands, the $B$-dependent part is solely sourced by the OMM and the relevant terms involve a product of two terms arising from OMM. Such a product term gives only a positive contribution, as is reflected in $\sigma_{zz}^{\rm omm} \big \vert_{s=0} $. In fact, the negative parts in $\sigma_{zz}^{\rm omm} \big \vert_{s=1}$ have arisen from integrands containing a product of one power of BC-only and one power of OMM-only terms, cancelling out (and overpowering) the OMM-only positive terms. From all these discussions, the conclusion is that, $  \sigma_{zz}^{\rm intra} = \sigma_{zz}^{\rm bc} + \sigma_{zz}^{\rm omm} $ turns out to be exclusively positive for all the bands within the RTA, without any possibility of sign-flips.
 
 
@@ -937,7 +937,7 @@ In this paper, we have addressed the crucial question of determining the nature 
 Our results show that a nonzero longitudinal conductivity in TSMs is caused by chiral anomaly, similar to the WSMs. The inclusion of OMM also leads to sign reversals of $\delta \sigma_{zz}$ depending on the relative strengths of internode- and intranode-scatterings, similar to the WSMs. The qualitative difference from the WSM-cases is that, since more than one band is participating in transport at each chiral node, we now have multiple knobs available to tune the characteristics of the linear response. These comprise various types of intraband- and intranode-scattering-amplitudes, viz. the set comprising $ \lbrace \beta^{\rm intra}_{s, \tilde s}, \,\beta^{\rm inter}_{s, \tilde s} \rbrace $. Quantitatively, we find that a large ratio of internode-to-intranode scattering-strength is required (cf. Fig.~\ref{figall3}) to get the sign-flips of $\delta \sigma_{zz}$, compared to WSMs \cite{timm}.
 
 
-To summarise the importance of our work, we emphasise on the following points: This is the first paper to incorporate a proper quadratic correction in the so-called flat-band of the TSMs while computing conductivity. This situation is highly nontrivial because the flat-band possesses a nontrivial OMM, despite having vanishing BC. In all prior literature \cite{pal22b_berry, ips-spin1-ph, ips-internode, girish-internode-spin1}, the conductivity from the flat-band has been omitted since, at leading order, it has zero dispersion. But this omission is not physical, as explained earlier. As such, our analysis here represents a significant advancement in the study of multifold semimetals in 3d. Secondly, the technique of solving the Boltzmann’s equations exactly (i.e., by going beyond the RTA) \cite{timm}, when more than one band is participating in transport at each chiral node, has not been implemented earlier. Our study of TSMs allows exactly that, demonstrating how intraband and interband scattering amplitudes can tune inear response. Last but not the least, it is a nontrivial task to extract the analytical expressions even within the RTA. We do that as well and bring out the inadequacies in the results obtained from RTA. Our investigations are very timely, thanks to the ongoing experimental efforts to probe novel transport properties of multifold fermions \cite{claudia-multifold}.
+To summarise the importance of our work, we emphasise on the following points: This is the first paper to incorporate a proper quadratic correction in the so-called flat-band of the TSMs while computing conductivity. This situation is highly nontrivial because the flat-band possesses a nontrivial OMM, despite having vanishing BC. In all prior literature \cite{pal22b_berry, ips-spin1-ph, ips-internode, girish-internode-spin1}, the conductivity from the flat-band has been omitted since, at leading order, it has zero dispersion. But this omission is not physical, as explained earlier. As such, our analysis here represents a significant advancement in the study of multifold semimetals in 3d. Secondly, the technique of solving the Boltzmann’s equations exactly (i.e., by going beyond the RTA) \cite{timm}, when more than one band is participating in transport at each chiral node, has not been implemented earlier. Our study of TSMs allows exactly that, demonstrating how intraband and interband scattering amplitudes can tune linear response. Last but not the least, it is a nontrivial task to extract the analytical expressions even within the RTA. We do that as well and bring out the inadequacies in the results obtained from RTA. Our investigations are very timely, thanks to the ongoing experimental efforts to probe novel transport properties of multifold fermions \cite{claudia-multifold}.
 
 
 
